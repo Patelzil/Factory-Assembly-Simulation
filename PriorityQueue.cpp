@@ -64,4 +64,4 @@ OrderedItem *PriorityQueue::deleteHighest()
 }
 
 // destructor
-PriorityQueue::~PriorityQueue() {}
+PriorityQueue::~PriorityQueue() = default;
