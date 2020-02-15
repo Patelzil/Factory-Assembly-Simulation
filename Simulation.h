@@ -19,22 +19,22 @@ private:
 	bool finishingBusy; // is the finishing station busy?
 
 public:
-        Simulation();
+    Simulation();
 
 	// you need methods to manipulate product and part queues.
 	// [add them here.]
         
-        int getSimulationTime();
-        void setSimulationTime(int time);
+	int getSimulationTime();
+	void setSimulationTime(int time);
 
-        // main method for driving the simulation
-        void runSimulation(char *fileName);
+	// main method for driving the simulation
+	void runSimulation(char *fileName);
 
 	// add an event to event queue.
 	void addEvent (Event*); 
 
 	// read next arrival from file and add it to the event queue. 
-        void getNextArrival();
+	void getNextArrival();
 	
 	// getters and setters for station statuses.
 	bool isMainBusy();
