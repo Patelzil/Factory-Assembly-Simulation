@@ -3,4 +3,4 @@ project(Event_Driven_Simulation)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(Event_Driven_Simulation main.cpp)
+add_executable(Event_Driven_Simulation A2main.cpp PriorityQueue.cpp PriorityQueue.h Part.cpp Part.h)

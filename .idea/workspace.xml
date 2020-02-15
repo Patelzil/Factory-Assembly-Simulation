@@ -11,7 +11,30 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="496403cf-21cf-493f-b73c-17e469e16562" name="Default Changelist" comment="" />
+    <list default="true" id="496403cf-21cf-493f-b73c-17e469e16562" name="Default Changelist" comment="New classes created">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Part.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Part.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriorityQueue.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PriorityQueue.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catch.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Event.h" beforeDir="false" afterPath="$PROJECT_DIR$/Event.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderedItem.h" beforeDir="false" afterPath="$PROJECT_DIR$/OrderedItem.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Event_Driven_Simulation.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Event_Driven_Simulation.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Event_Driven_Simulation.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Event_Driven_Simulation.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Event_Driven_Simulation.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Event_Driven_Simulation.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Event_Driven_Simulation.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Event_Driven_Simulation.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Event_Driven_Simulation.dir/objects1.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Event_Driven_Simulation.dir/objects1.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Event_Driven_Simulation.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Event_Driven_Simulation.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Event_Driven_Simulation.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Event_Driven_Simulation.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,7 +44,13 @@
     <option name="formatViaClangd" value="false" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="PREVIEW_PUSH_PROTECTED_ONLY" value="true" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
+  </component>
   <component name="ProjectId" id="1XlhEyZWBtO7gI7xuLhd2GeLRBY" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -29,7 +58,15 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RunManager">
     <configuration name="Event_Driven_Simulation" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Event_Driven_Simulation" TARGET_NAME="Event_Driven_Simulation" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Event_Driven_Simulation" RUN_TARGET_NAME="Event_Driven_Simulation">
@@ -61,16 +98,33 @@
       <option name="presentableId" value="Default" />
       <updated>1581626480490</updated>
       <workItem from="1581626484348" duration="652000" />
+      <workItem from="1581706972030" duration="6621000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="New classes created" />
+    <option name="LAST_COMMIT_MESSAGE" value="New classes created" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="667" y="167" key="com.intellij.ide.util.TipDialog" timestamp="1581626484394">
+    <state x="277" y="0" key="CommitChangelistDialog2" timestamp="1581728832351">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="667" y="167" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1581626484394" />
+    <state x="277" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1581728832351" />
+    <state x="144" y="0" key="SettingsEditor" timestamp="1581728791310">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="144" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1581728791310" />
+    <state x="667" y="167" key="com.intellij.ide.util.TipDialog" timestamp="1581706979509">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="667" y="167" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1581706979509" />
+    <state x="452" y="259" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1581707546236">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="452" y="259" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1581707546236" />
   </component>
 </project>

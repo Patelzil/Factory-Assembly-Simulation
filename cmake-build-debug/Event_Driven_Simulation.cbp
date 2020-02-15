@@ -80,7 +80,19 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/Lenovo/CLionProjects/Event_Driven_Simulation/main.cpp">
+		<Unit filename="C:/Users/Lenovo/CLionProjects/Event_Driven_Simulation/A2main.cpp">
+			<Option target="Event_Driven_Simulation"/>
+		</Unit>
+		<Unit filename="C:/Users/Lenovo/CLionProjects/Event_Driven_Simulation/Part.cpp">
+			<Option target="Event_Driven_Simulation"/>
+		</Unit>
+		<Unit filename="C:/Users/Lenovo/CLionProjects/Event_Driven_Simulation/Part.h">
+			<Option target="Event_Driven_Simulation"/>
+		</Unit>
+		<Unit filename="C:/Users/Lenovo/CLionProjects/Event_Driven_Simulation/PriorityQueue.cpp">
+			<Option target="Event_Driven_Simulation"/>
+		</Unit>
+		<Unit filename="C:/Users/Lenovo/CLionProjects/Event_Driven_Simulation/PriorityQueue.h">
 			<Option target="Event_Driven_Simulation"/>
 		</Unit>
 		<Unit filename="C:/Users/Lenovo/CLionProjects/Event_Driven_Simulation/CMakeLists.txt">

@@ -1,7 +1,6 @@
 #pragma once
 #include "OrderedItem.h"
 
-
 class Simulation;
 
 /**** Event abstract interface */

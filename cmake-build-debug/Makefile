@@ -122,32 +122,86 @@ Event_Driven_Simulation/fast:
 	$(MAKE) -f CMakeFiles\Event_Driven_Simulation.dir\build.make CMakeFiles/Event_Driven_Simulation.dir/build
 .PHONY : Event_Driven_Simulation/fast
 
-main.obj: main.cpp.obj
+A2main.obj: A2main.cpp.obj
 
-.PHONY : main.obj
+.PHONY : A2main.obj
 
 # target to build an object file
-main.cpp.obj:
-	$(MAKE) -f CMakeFiles\Event_Driven_Simulation.dir\build.make CMakeFiles/Event_Driven_Simulation.dir/main.cpp.obj
-.PHONY : main.cpp.obj
+A2main.cpp.obj:
+	$(MAKE) -f CMakeFiles\Event_Driven_Simulation.dir\build.make CMakeFiles/Event_Driven_Simulation.dir/A2main.cpp.obj
+.PHONY : A2main.cpp.obj
 
-main.i: main.cpp.i
+A2main.i: A2main.cpp.i
 
-.PHONY : main.i
+.PHONY : A2main.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles\Event_Driven_Simulation.dir\build.make CMakeFiles/Event_Driven_Simulation.dir/main.cpp.i
-.PHONY : main.cpp.i
+A2main.cpp.i:
+	$(MAKE) -f CMakeFiles\Event_Driven_Simulation.dir\build.make CMakeFiles/Event_Driven_Simulation.dir/A2main.cpp.i
+.PHONY : A2main.cpp.i
 
-main.s: main.cpp.s
+A2main.s: A2main.cpp.s
 
-.PHONY : main.s
+.PHONY : A2main.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles\Event_Driven_Simulation.dir\build.make CMakeFiles/Event_Driven_Simulation.dir/main.cpp.s
-.PHONY : main.cpp.s
+A2main.cpp.s:
+	$(MAKE) -f CMakeFiles\Event_Driven_Simulation.dir\build.make CMakeFiles/Event_Driven_Simulation.dir/A2main.cpp.s
+.PHONY : A2main.cpp.s
+
+Part.obj: Part.cpp.obj
+
+.PHONY : Part.obj
+
+# target to build an object file
+Part.cpp.obj:
+	$(MAKE) -f CMakeFiles\Event_Driven_Simulation.dir\build.make CMakeFiles/Event_Driven_Simulation.dir/Part.cpp.obj
+.PHONY : Part.cpp.obj
+
+Part.i: Part.cpp.i
+
+.PHONY : Part.i
+
+# target to preprocess a source file
+Part.cpp.i:
+	$(MAKE) -f CMakeFiles\Event_Driven_Simulation.dir\build.make CMakeFiles/Event_Driven_Simulation.dir/Part.cpp.i
+.PHONY : Part.cpp.i
+
+Part.s: Part.cpp.s
+
+.PHONY : Part.s
+
+# target to generate assembly for a file
+Part.cpp.s:
+	$(MAKE) -f CMakeFiles\Event_Driven_Simulation.dir\build.make CMakeFiles/Event_Driven_Simulation.dir/Part.cpp.s
+.PHONY : Part.cpp.s
+
+PriorityQueue.obj: PriorityQueue.cpp.obj
+
+.PHONY : PriorityQueue.obj
+
+# target to build an object file
+PriorityQueue.cpp.obj:
+	$(MAKE) -f CMakeFiles\Event_Driven_Simulation.dir\build.make CMakeFiles/Event_Driven_Simulation.dir/PriorityQueue.cpp.obj
+.PHONY : PriorityQueue.cpp.obj
+
+PriorityQueue.i: PriorityQueue.cpp.i
+
+.PHONY : PriorityQueue.i
+
+# target to preprocess a source file
+PriorityQueue.cpp.i:
+	$(MAKE) -f CMakeFiles\Event_Driven_Simulation.dir\build.make CMakeFiles/Event_Driven_Simulation.dir/PriorityQueue.cpp.i
+.PHONY : PriorityQueue.cpp.i
+
+PriorityQueue.s: PriorityQueue.cpp.s
+
+.PHONY : PriorityQueue.s
+
+# target to generate assembly for a file
+PriorityQueue.cpp.s:
+	$(MAKE) -f CMakeFiles\Event_Driven_Simulation.dir\build.make CMakeFiles/Event_Driven_Simulation.dir/PriorityQueue.cpp.s
+.PHONY : PriorityQueue.cpp.s
 
 # Help Target
 help:
@@ -158,9 +212,15 @@ help:
 	@echo ... Event_Driven_Simulation
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
+	@echo ... A2main.obj
+	@echo ... A2main.i
+	@echo ... A2main.s
+	@echo ... Part.obj
+	@echo ... Part.i
+	@echo ... Part.s
+	@echo ... PriorityQueue.obj
+	@echo ... PriorityQueue.i
+	@echo ... PriorityQueue.s
 .PHONY : help
 
 
