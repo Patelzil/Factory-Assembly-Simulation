@@ -9,8 +9,10 @@ private:
     int size; // size of the PriorityQueue
 public:
     PriorityQueue();
+    int getSize();
     bool isEmpty();
     OrderedItem *getFront();
     void insert(OrderedItem *); // ordered insert of events
     void deleteHighest(); // remove from front the event that needs to be simulated
+    ~PriorityQueue();
 };// class PriorityQueue
