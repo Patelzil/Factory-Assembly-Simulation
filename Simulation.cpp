@@ -1,4 +1,6 @@
 #include "Simulation.h"
+#include "PriorityQueue.h"
+#include "Queue.h"
 
 int Simulation::getSimulationTime() { return simulationTime; }
 void Simulation::setSimulationTime(int time) { simulationTime = time; }
@@ -7,11 +9,10 @@ bool Simulation::isFinishingBusy(){ return finishingBusy; }
 void Simulation::setMainStatus(bool value){ mainBusy = value; }
 void Simulation::setFinishingStatus(bool value){ finishingBusy = value; }
 
-//todo: Finish constructor
-Simulation::Simulation()
-{
 
-}// Simulation
+Simulation::Simulation()
+:simulationTime(0),mainAssemblyTime(0),finishingAssemblyTime(0),mainBusy(false),
+finishingBusy(false),eventList(new PriorityQueue),productQueue(new Queue),partQueues(new Queue*[3]){}// Simulation
 
 // todo: main method for driving the simulation
 void Simulation::runSimulation(char *fileName)
