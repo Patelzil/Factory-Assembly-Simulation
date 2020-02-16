@@ -10,4 +10,6 @@ private:
 public:
     PartArrival();
     void print();
+    void processEvent();
+    ~PartArrival();
 };// class PartArrival

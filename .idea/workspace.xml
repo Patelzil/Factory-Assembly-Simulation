@@ -11,24 +11,13 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="496403cf-21cf-493f-b73c-17e469e16562" name="Default Changelist" comment="Implemented deleteHighest that removes the first event with highest priority from the queue.">
+    <list default="true" id="496403cf-21cf-493f-b73c-17e469e16562" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EndAssembly.h" beforeDir="false" afterPath="$PROJECT_DIR$/EndAssembly.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Part.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Part.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PartArrival.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/PartArrival.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PartArrival.h" beforeDir="false" afterPath="$PROJECT_DIR$/PartArrival.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Simulation.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Simulation.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Simulation.h" beforeDir="false" afterPath="$PROJECT_DIR$/Simulation.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Event_Driven_Simulation.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Event_Driven_Simulation.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Event_Driven_Simulation.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Event_Driven_Simulation.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Event_Driven_Simulation.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Event_Driven_Simulation.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Event_Driven_Simulation.dir/objects1.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Event_Driven_Simulation.dir/objects1.rsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Event_Driven_Simulation.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Event_Driven_Simulation.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Event_Driven_Simulation.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Event_Driven_Simulation.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductArrival.h" beforeDir="false" afterPath="$PROJECT_DIR$/ProductArrival.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StartAssembly.h" beforeDir="false" afterPath="$PROJECT_DIR$/StartAssembly.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +84,7 @@
       <workItem from="1581626484348" duration="652000" />
       <workItem from="1581706972030" duration="16192000" />
       <workItem from="1581794824409" duration="1674000" />
-      <workItem from="1581839386964" duration="3603000" />
+      <workItem from="1581839386964" duration="4257000" />
     </task>
     <task id="LOCAL-00001" summary="New classes created">
       <created>1581728875901</created>
@@ -195,7 +184,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581842066920</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Basic changes in syntax and constructors made">
+      <created>1581843105073</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1581843105073</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -217,7 +213,8 @@
     <MESSAGE value="ProductArrival(Event subclass) created." />
     <MESSAGE value="Fields and constructor implemented." />
     <MESSAGE value="Made PriorityQueue a subclass of ListItem." />
-    <option name="LAST_COMMIT_MESSAGE" value="Made PriorityQueue a subclass of ListItem." />
+    <MESSAGE value="Basic changes in syntax and constructors made" />
+    <option name="LAST_COMMIT_MESSAGE" value="Basic changes in syntax and constructors made" />
   </component>
   <component name="WindowStateProjectService">
     <state x="233" y="2" key="#Inspections" timestamp="1581729970024">
@@ -228,10 +225,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="233" y="2" key="#New_File_Extensions/0.0.1280.680@0.0.1280.680" timestamp="1581751108912" />
-    <state x="297" y="0" key="CommitChangelistDialog2" timestamp="1581842066018">
+    <state x="297" y="0" key="CommitChangelistDialog2" timestamp="1581843103613">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="297" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1581842066018" />
+    <state x="297" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1581843103613" />
     <state x="144" y="0" key="SettingsEditor" timestamp="1581728791310">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

@@ -5,5 +5,5 @@ using namespace std;
 
 void PartArrival::print()
 {
-    cout <<
+
 }// print
