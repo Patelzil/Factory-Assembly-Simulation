@@ -1,9 +1,10 @@
 #pragma once
 
+#include "ListItem.h"
 class Node;
 class OrderedItem;
 
-class PriorityQueue {
+class PriorityQueue: public ListItem {
 private:
     Node *front; // front of the PriorityQueue
     int size; // size of the PriorityQueue
