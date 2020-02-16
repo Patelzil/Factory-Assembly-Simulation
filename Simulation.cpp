@@ -1,6 +1,7 @@
 #include "Simulation.h"
 #include "PriorityQueue.h"
 #include "Queue.h"
+#include "Event.h"
 
 int Simulation::getSimulationTime() { return simulationTime; }
 void Simulation::setSimulationTime(int time) { simulationTime = time; }
@@ -20,10 +21,10 @@ void Simulation::runSimulation(char *fileName)
 
 }// runSimulation
 
-// todo: add an event to event queue.
-void Simulation::addEvent (Event*)
+// add an event to event queue.
+void Simulation::addEvent (Event *newEvent)
 {
-
+    eventList->insert(newEvent);
 }// addEvent
 
 
