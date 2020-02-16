@@ -83,6 +83,12 @@
 		<Unit filename="C:/Users/Lenovo/CLionProjects/Event_Driven_Simulation/A2main.cpp">
 			<Option target="Event_Driven_Simulation"/>
 		</Unit>
+		<Unit filename="C:/Users/Lenovo/CLionProjects/Event_Driven_Simulation/EndAssembly.cpp">
+			<Option target="Event_Driven_Simulation"/>
+		</Unit>
+		<Unit filename="C:/Users/Lenovo/CLionProjects/Event_Driven_Simulation/EndAssembly.h">
+			<Option target="Event_Driven_Simulation"/>
+		</Unit>
 		<Unit filename="C:/Users/Lenovo/CLionProjects/Event_Driven_Simulation/Event.cpp">
 			<Option target="Event_Driven_Simulation"/>
 		</Unit>
@@ -107,16 +113,40 @@
 		<Unit filename="C:/Users/Lenovo/CLionProjects/Event_Driven_Simulation/Part.h">
 			<Option target="Event_Driven_Simulation"/>
 		</Unit>
+		<Unit filename="C:/Users/Lenovo/CLionProjects/Event_Driven_Simulation/PartArrival.cpp">
+			<Option target="Event_Driven_Simulation"/>
+		</Unit>
+		<Unit filename="C:/Users/Lenovo/CLionProjects/Event_Driven_Simulation/PartArrival.h">
+			<Option target="Event_Driven_Simulation"/>
+		</Unit>
 		<Unit filename="C:/Users/Lenovo/CLionProjects/Event_Driven_Simulation/PriorityQueue.cpp">
 			<Option target="Event_Driven_Simulation"/>
 		</Unit>
 		<Unit filename="C:/Users/Lenovo/CLionProjects/Event_Driven_Simulation/PriorityQueue.h">
 			<Option target="Event_Driven_Simulation"/>
 		</Unit>
+		<Unit filename="C:/Users/Lenovo/CLionProjects/Event_Driven_Simulation/ProductArrival.cpp">
+			<Option target="Event_Driven_Simulation"/>
+		</Unit>
+		<Unit filename="C:/Users/Lenovo/CLionProjects/Event_Driven_Simulation/ProductArrival.h">
+			<Option target="Event_Driven_Simulation"/>
+		</Unit>
 		<Unit filename="C:/Users/Lenovo/CLionProjects/Event_Driven_Simulation/Queue.cpp">
 			<Option target="Event_Driven_Simulation"/>
 		</Unit>
 		<Unit filename="C:/Users/Lenovo/CLionProjects/Event_Driven_Simulation/Queue.h">
+			<Option target="Event_Driven_Simulation"/>
+		</Unit>
+		<Unit filename="C:/Users/Lenovo/CLionProjects/Event_Driven_Simulation/Simulation.cpp">
+			<Option target="Event_Driven_Simulation"/>
+		</Unit>
+		<Unit filename="C:/Users/Lenovo/CLionProjects/Event_Driven_Simulation/Simulation.h">
+			<Option target="Event_Driven_Simulation"/>
+		</Unit>
+		<Unit filename="C:/Users/Lenovo/CLionProjects/Event_Driven_Simulation/StartAssembly.cpp">
+			<Option target="Event_Driven_Simulation"/>
+		</Unit>
+		<Unit filename="C:/Users/Lenovo/CLionProjects/Event_Driven_Simulation/StartAssembly.h">
 			<Option target="Event_Driven_Simulation"/>
 		</Unit>
 		<Unit filename="C:/Users/Lenovo/CLionProjects/Event_Driven_Simulation/CMakeLists.txt">

@@ -2,6 +2,7 @@
 
 #include "Event.h"
 
-class EndAssembly: public Event {
+class EndAssembly: public Event
+{
 
 };// class EndAssembly

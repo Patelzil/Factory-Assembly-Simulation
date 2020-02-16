@@ -1,5 +1,9 @@
-//
-// Created by Lenovo on 2/16/2020.
-//
-
 #include "PartArrival.h"
+#include <iostream>
+using namespace std;
+
+
+void PartArrival::print()
+{
+    cout <<
+}// print

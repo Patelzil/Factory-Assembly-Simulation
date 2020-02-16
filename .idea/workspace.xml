@@ -11,26 +11,21 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="496403cf-21cf-493f-b73c-17e469e16562" name="Default Changelist" comment="New classes created">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Part.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Part.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PriorityQueue.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PriorityQueue.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catch.hpp" afterDir="false" />
+    <list default="true" id="496403cf-21cf-493f-b73c-17e469e16562" name="Default Changelist" comment="Implemented deleteHighest that removes the first event with highest priority from the queue.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Event.h" beforeDir="false" afterPath="$PROJECT_DIR$/Event.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OrderedItem.h" beforeDir="false" afterPath="$PROJECT_DIR$/OrderedItem.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EndAssembly.h" beforeDir="false" afterPath="$PROJECT_DIR$/EndAssembly.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Part.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PartArrival.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/PartArrival.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PartArrival.h" beforeDir="false" afterPath="$PROJECT_DIR$/PartArrival.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Simulation.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Simulation.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Simulation.h" beforeDir="false" afterPath="$PROJECT_DIR$/Simulation.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Event_Driven_Simulation.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Event_Driven_Simulation.dir/DependInfo.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Event_Driven_Simulation.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Event_Driven_Simulation.dir/build.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Event_Driven_Simulation.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Event_Driven_Simulation.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Event_Driven_Simulation.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Event_Driven_Simulation.dir/depend.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Event_Driven_Simulation.dir/objects1.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Event_Driven_Simulation.dir/objects1.rsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Event_Driven_Simulation.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Event_Driven_Simulation.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Event_Driven_Simulation.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Event_Driven_Simulation.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
@@ -98,8 +93,109 @@
       <option name="presentableId" value="Default" />
       <updated>1581626480490</updated>
       <workItem from="1581626484348" duration="652000" />
-      <workItem from="1581706972030" duration="6621000" />
+      <workItem from="1581706972030" duration="16192000" />
+      <workItem from="1581794824409" duration="1674000" />
+      <workItem from="1581839386964" duration="3603000" />
     </task>
+    <task id="LOCAL-00001" summary="New classes created">
+      <created>1581728875901</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1581728875901</updated>
+    </task>
+    <task id="LOCAL-00002" summary="ompareTo implemented">
+      <created>1581743758990</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1581743758990</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Implemented ordered insert">
+      <created>1581748433582</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1581748433582</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Implemented deleteHighest that removes the first event with highest priority from the queue.">
+      <created>1581749067172</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1581749067172</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Implemented deleteHighest that removes the first event with highest priority from the queue.">
+      <created>1581749100085</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1581749100085</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Basic methods eg setter and getters implemented.">
+      <created>1581751814999</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1581751814999</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Data members initialized inside the constructor">
+      <created>1581796264497</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1581796264497</updated>
+    </task>
+    <task id="LOCAL-00008" summary="addEvent to the eventList using the orderedInsert from PriorityQueue.cpp">
+      <created>1581839842227</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1581839842227</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Class created. Subclass of Event class.">
+      <created>1581840115418</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1581840115418</updated>
+    </task>
+    <task id="LOCAL-00010" summary="StartAssembly created. Event's subclass.">
+      <created>1581840183980</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1581840183980</updated>
+    </task>
+    <task id="LOCAL-00011" summary="EndAssembly(subclass of event) created.">
+      <created>1581840229472</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1581840229472</updated>
+    </task>
+    <task id="LOCAL-00012" summary="ProductArrival(Event subclass) created.">
+      <created>1581840320969</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1581840320969</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Fields and constructor implemented.">
+      <created>1581841097897</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1581841097897</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Made PriorityQueue a subclass of ListItem.">
+      <created>1581842066920</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1581842066920</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -107,24 +203,50 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="New classes created" />
-    <option name="LAST_COMMIT_MESSAGE" value="New classes created" />
+    <MESSAGE value="ompareTo implemented" />
+    <MESSAGE value="Ordered insert implemented" />
+    <MESSAGE value="changes made to insert method" />
+    <MESSAGE value="Implemented ordered insert" />
+    <MESSAGE value="Implemented deleteHighest that removes the first event with highest priority from the queue." />
+    <MESSAGE value="Basic methods eg setter and getters implemented." />
+    <MESSAGE value="Data members initialized inside the constructor" />
+    <MESSAGE value="addEvent to the eventList using the orderedInsert from PriorityQueue.cpp" />
+    <MESSAGE value="Class created. Subclass of Event class." />
+    <MESSAGE value="StartAssembly created. Event's subclass." />
+    <MESSAGE value="EndAssembly(subclass of event) created." />
+    <MESSAGE value="ProductArrival(Event subclass) created." />
+    <MESSAGE value="Fields and constructor implemented." />
+    <MESSAGE value="Made PriorityQueue a subclass of ListItem." />
+    <option name="LAST_COMMIT_MESSAGE" value="Made PriorityQueue a subclass of ListItem." />
   </component>
   <component name="WindowStateProjectService">
-    <state x="277" y="0" key="CommitChangelistDialog2" timestamp="1581728832351">
+    <state x="233" y="2" key="#Inspections" timestamp="1581729970024">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="277" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1581728832351" />
+    <state x="233" y="2" key="#Inspections/0.0.1280.680@0.0.1280.680" timestamp="1581729970024" />
+    <state x="233" y="2" key="#New_File_Extensions" timestamp="1581751108912">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="233" y="2" key="#New_File_Extensions/0.0.1280.680@0.0.1280.680" timestamp="1581751108912" />
+    <state x="297" y="0" key="CommitChangelistDialog2" timestamp="1581842066018">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="297" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1581842066018" />
     <state x="144" y="0" key="SettingsEditor" timestamp="1581728791310">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="144" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1581728791310" />
-    <state x="667" y="167" key="com.intellij.ide.util.TipDialog" timestamp="1581706979509">
+    <state x="233" y="76" key="Vcs.Push.Dialog.v2" timestamp="1581752097565">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="667" y="167" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1581706979509" />
-    <state x="452" y="259" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1581707546236">
+    <state x="233" y="76" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1581752097565" />
+    <state x="667" y="167" key="com.intellij.ide.util.TipDialog" timestamp="1581839386915">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="452" y="259" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1581707546236" />
+    <state x="667" y="167" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1581839386915" />
+    <state x="452" y="259" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1581796484224">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="452" y="259" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1581796484224" />
   </component>
 </project>

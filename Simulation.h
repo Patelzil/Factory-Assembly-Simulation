@@ -12,7 +12,7 @@ private:
         int simulationTime; // what is the current time of the simulation?
         PriorityQueue *eventList; // priority queue of Events.
         Queue* productQueue; // queue of partially assembled products (for finishing station).
-        Queue** partQueues; // *array* of queues of parts for the stations.
+        Queue** partQueues; // *array* of queues of parts for the stations. for P0,P1,P2
         int  mainAssemblyTime; //  how long does the main station take?
         int  finishingAssemblyTime; //  how long does the main station take?
 	bool mainBusy; // is the main station busy?
