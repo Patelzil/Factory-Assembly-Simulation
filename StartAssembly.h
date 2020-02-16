@@ -5,7 +5,7 @@
 class StartAssembly: public Event
 {
 public:
-    StartAssembly();
+    StartAssembly(int theTime, Simulation *sim);
     ~StartAssembly();
     void processEvent();
 };// StartAssembly
