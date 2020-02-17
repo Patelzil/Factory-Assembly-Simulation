@@ -446,6 +446,33 @@ StartAssembly.cpp.s:
 	$(MAKE) -f CMakeFiles\Event_Driven_Simulation.dir\build.make CMakeFiles/Event_Driven_Simulation.dir/StartAssembly.cpp.s
 .PHONY : StartAssembly.cpp.s
 
+Test.obj: Test.cpp.obj
+
+.PHONY : Test.obj
+
+# target to build an object file
+Test.cpp.obj:
+	$(MAKE) -f CMakeFiles\Event_Driven_Simulation.dir\build.make CMakeFiles/Event_Driven_Simulation.dir/Test.cpp.obj
+.PHONY : Test.cpp.obj
+
+Test.i: Test.cpp.i
+
+.PHONY : Test.i
+
+# target to preprocess a source file
+Test.cpp.i:
+	$(MAKE) -f CMakeFiles\Event_Driven_Simulation.dir\build.make CMakeFiles/Event_Driven_Simulation.dir/Test.cpp.i
+.PHONY : Test.cpp.i
+
+Test.s: Test.cpp.s
+
+.PHONY : Test.s
+
+# target to generate assembly for a file
+Test.cpp.s:
+	$(MAKE) -f CMakeFiles\Event_Driven_Simulation.dir\build.make CMakeFiles/Event_Driven_Simulation.dir/Test.cpp.s
+.PHONY : Test.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -491,6 +518,9 @@ help:
 	@echo ... StartAssembly.obj
 	@echo ... StartAssembly.i
 	@echo ... StartAssembly.s
+	@echo ... Test.obj
+	@echo ... Test.i
+	@echo ... Test.s
 .PHONY : help
 
 

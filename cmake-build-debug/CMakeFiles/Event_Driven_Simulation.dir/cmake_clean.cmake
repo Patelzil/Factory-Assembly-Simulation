@@ -11,6 +11,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Event_Driven_Simulation.dir/Queue.cpp.obj"
   "CMakeFiles/Event_Driven_Simulation.dir/Simulation.cpp.obj"
   "CMakeFiles/Event_Driven_Simulation.dir/StartAssembly.cpp.obj"
+  "CMakeFiles/Event_Driven_Simulation.dir/Test.cpp.obj"
   "Event_Driven_Simulation.exe"
   "Event_Driven_Simulation.exe.manifest"
   "Event_Driven_Simulation.pdb"

@@ -11,7 +11,6 @@ void PartArrival::processEvent()
 
 }// processEvent
 
-// todo: add a print statement
 void PartArrival::print()
 {
     cout << "At time " << getTime() << " Part P" << myPart->getPartNumber() << " arrives." << endl;

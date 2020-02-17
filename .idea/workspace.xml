@@ -12,10 +12,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="496403cf-21cf-493f-b73c-17e469e16562" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Test.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductArrival.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ProductArrival.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StartAssembly.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/StartAssembly.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StartAssembly.h" beforeDir="false" afterPath="$PROJECT_DIR$/StartAssembly.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Part.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part.h" beforeDir="false" afterPath="$PROJECT_DIR$/Part.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PartArrival.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/PartArrival.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Event_Driven_Simulation.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Event_Driven_Simulation.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Event_Driven_Simulation.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Event_Driven_Simulation.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Event_Driven_Simulation.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Event_Driven_Simulation.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Event_Driven_Simulation.dir/objects1.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Event_Driven_Simulation.dir/objects1.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Event_Driven_Simulation.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Event_Driven_Simulation.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Event_Driven_Simulation.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Event_Driven_Simulation.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +94,8 @@
       <workItem from="1581706972030" duration="16192000" />
       <workItem from="1581794824409" duration="1674000" />
       <workItem from="1581839386964" duration="4421000" />
-      <workItem from="1581879090163" duration="1755000" />
+      <workItem from="1581879090163" duration="1794000" />
+      <workItem from="1581922694889" duration="4499000" />
     </task>
     <task id="LOCAL-00001" summary="New classes created">
       <created>1581728875901</created>
@@ -197,7 +209,42 @@
       <option name="project" value="LOCAL" />
       <updated>1581843779224</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Parameter changes">
+      <created>1581880892675</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1581880892675</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Part field added and print statements added.">
+      <created>1581925799865</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1581925799865</updated>
+    </task>
+    <task id="LOCAL-00019" summary="&quot;include&quot; errors fixed.">
+      <created>1581925922765</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1581925922765</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Constructor and print statement added.">
+      <created>1581927001475</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1581927001475</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Constructor and print statement added.">
+      <created>1581927318348</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1581927318348</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -221,7 +268,11 @@
     <MESSAGE value="Made PriorityQueue a subclass of ListItem." />
     <MESSAGE value="Basic changes in syntax and constructors made" />
     <MESSAGE value="Committed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Committed" />
+    <MESSAGE value="Parameter changes" />
+    <MESSAGE value="Part field added and print statements added." />
+    <MESSAGE value="&quot;include&quot; errors fixed." />
+    <MESSAGE value="Constructor and print statement added." />
+    <option name="LAST_COMMIT_MESSAGE" value="Constructor and print statement added." />
   </component>
   <component name="WindowStateProjectService">
     <state x="233" y="2" key="#Inspections" timestamp="1581729970024">
@@ -232,10 +283,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="233" y="2" key="#New_File_Extensions/0.0.1280.680@0.0.1280.680" timestamp="1581751108912" />
-    <state x="297" y="0" key="CommitChangelistDialog2" timestamp="1581843777928">
+    <state x="297" y="0" key="CommitChangelistDialog2" timestamp="1581927317796">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="297" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1581843777928" />
+    <state x="297" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1581927317796" />
     <state x="144" y="0" key="SettingsEditor" timestamp="1581728791310">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -244,10 +295,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="233" y="76" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1581843786354" />
-    <state x="364" y="186" key="com.intellij.ide.util.TipDialog" timestamp="1581879119213">
+    <state x="364" y="186" key="com.intellij.ide.util.TipDialog" timestamp="1581922778780">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="364" y="186" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1581879119213" />
+    <state x="364" y="186" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1581922778780" />
     <state x="452" y="259" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1581796484224">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
