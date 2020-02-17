@@ -1,6 +1,8 @@
 #include "StartAssembly.h"
+#include "Part.h"
 #include <iostream>
 using namespace std;
+
 
 // constructor
 StartAssembly::StartAssembly(int theTime, Simulation *sim, Part *thePart) : Event(theTime, sim), myPart(thePart) {}
@@ -14,7 +16,7 @@ void StartAssembly::processEvent()
 
 void StartAssembly::print()
 {
-    cout << "At time " << getTime() << " Part P" << myPart->getPartNumber() << " starts to be assembled."
+    cout << "At time " << getTime() << " Part P" << myPart->getPartNumber() << " starts to be assembled." << endl;
 }// print
 
 // destructor

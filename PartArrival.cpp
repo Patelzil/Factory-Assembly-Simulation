@@ -1,4 +1,5 @@
 #include "PartArrival.h"
+#include "Part.h"
 #include <iostream>
 using namespace std;
 
@@ -13,7 +14,7 @@ void PartArrival::processEvent()
 // todo: add a print statement
 void PartArrival::print()
 {
-    cout << "At time " << getTime() << " Part P" << myPart->getPartNumber() << " arrives."
+    cout << "At time " << getTime() << " Part P" << myPart->getPartNumber() << " arrives." << endl;
 }// print
 
 //destructor
