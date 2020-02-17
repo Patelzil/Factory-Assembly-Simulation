@@ -1,11 +1,15 @@
 #pragma once
 
 #include "Event.h"
+class Part;
 
 class EndAssembly: public Event
 {
+private:
+    Part *myPart;
 public:
-    EndAssembly();
+    EndAssembly(int, Simulation *, Part *);
     ~EndAssembly();
     void processEvent();
+    void print();
 };// class EndAssembly
