@@ -11,5 +11,4 @@ public:
     EndAssembly(int, Simulation *, Part *);
     ~EndAssembly();
     void processEvent();
-    void print();
 };// class EndAssembly

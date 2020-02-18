@@ -12,21 +12,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="496403cf-21cf-493f-b73c-17e469e16562" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Test.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Part.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Part.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Part.h" beforeDir="false" afterPath="$PROJECT_DIR$/Part.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PartArrival.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/PartArrival.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Event_Driven_Simulation.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Event_Driven_Simulation.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Event_Driven_Simulation.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Event_Driven_Simulation.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Event_Driven_Simulation.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Event_Driven_Simulation.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Event_Driven_Simulation.dir/objects1.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Event_Driven_Simulation.dir/objects1.rsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Event_Driven_Simulation.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Event_Driven_Simulation.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Event_Driven_Simulation.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Event_Driven_Simulation.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EndAssembly.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/EndAssembly.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EndAssembly.h" beforeDir="false" afterPath="$PROJECT_DIR$/EndAssembly.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProductArrival.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ProductArrival.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Simulation.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Simulation.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Simulation.h" beforeDir="false" afterPath="$PROJECT_DIR$/Simulation.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StartAssembly.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/StartAssembly.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +87,8 @@
       <workItem from="1581794824409" duration="1674000" />
       <workItem from="1581839386964" duration="4421000" />
       <workItem from="1581879090163" duration="1794000" />
-      <workItem from="1581922694889" duration="4499000" />
+      <workItem from="1581922694889" duration="4717000" />
+      <workItem from="1581968903299" duration="20630000" />
     </task>
     <task id="LOCAL-00001" summary="New classes created">
       <created>1581728875901</created>
@@ -244,7 +237,21 @@
       <option name="project" value="LOCAL" />
       <updated>1581927318348</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Test File created. PartArrival class implemented.">
+      <created>1581928072855</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1581928072855</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Reading file">
+      <created>1581973226274</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1581973226274</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -272,7 +279,9 @@
     <MESSAGE value="Part field added and print statements added." />
     <MESSAGE value="&quot;include&quot; errors fixed." />
     <MESSAGE value="Constructor and print statement added." />
-    <option name="LAST_COMMIT_MESSAGE" value="Constructor and print statement added." />
+    <MESSAGE value="Test File created. PartArrival class implemented." />
+    <MESSAGE value="Reading file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Reading file" />
   </component>
   <component name="WindowStateProjectService">
     <state x="233" y="2" key="#Inspections" timestamp="1581729970024">
@@ -283,10 +292,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="233" y="2" key="#New_File_Extensions/0.0.1280.680@0.0.1280.680" timestamp="1581751108912" />
-    <state x="297" y="0" key="CommitChangelistDialog2" timestamp="1581927317796">
+    <state x="297" y="0" key="CommitChangelistDialog2" timestamp="1581973225400">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="297" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1581927317796" />
+    <state x="297" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1581973225400" />
     <state x="144" y="0" key="SettingsEditor" timestamp="1581728791310">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -295,10 +304,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="233" y="76" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1581843786354" />
-    <state x="364" y="186" key="com.intellij.ide.util.TipDialog" timestamp="1581922778780">
+    <state x="364" y="186" key="com.intellij.ide.util.TipDialog" timestamp="1581968906530">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="364" y="186" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1581922778780" />
+    <state x="364" y="186" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1581968906530" />
     <state x="452" y="259" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1581796484224">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
