@@ -7,7 +7,8 @@
 #include <iostream>
 using namespace std;
 
-EndAssembly::EndAssembly(int theTime, Simulation *sim, Part *thePart): Event(theTime,sim), myPart(thePart){}
+EndAssembly::EndAssembly(int theTime, Simulation *sim, Part *thePart, Part *theOtherPart)
+    : Event(theTime,sim), myPart(thePart), mySecPart(theOtherPart){}
 
 //  1) For the main station, create ProductArrival event.
 //     If main station available & P0,P1 are waiting schedule StartAssembly.
@@ -32,10 +33,8 @@ void EndAssembly::processEvent()
         // both P0 and P1 are waiting and main station is not busy
         if(!sim->getPartQueues(0)->isEmpty() && !sim->getPartQueues(1)->isEmpty() && !sim->isMainBusy())
         {
-            StartAssembly *firstStart = new StartAssembly(sim->getSimulationTime(), sim, dynamic_cast<Part *>(sim->getPartQueues(0)->getFront())); // start assemblying  P0
-            StartAssembly *secondStart = new StartAssembly(sim->getSimulationTime(), this->sim, dynamic_cast<Part *>(sim->getPartQueues(1)->getFront()));
-            sim->addEvent(firstStart);
-            sim->addEvent(secondStart);
+            StartAssembly *newStart = new StartAssembly(sim->getSimulationTime(), sim, dynamic_cast<Part *>(sim->getPartQueues(0)->getFront()), dynamic_cast<Part *>(sim->getPartQueues(1)->getFront())); // start assemblying  P0
+            sim->addEvent(newStart);
         }
     }
     else // finishing station

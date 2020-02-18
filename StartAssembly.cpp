@@ -7,7 +7,8 @@ using namespace std;
 
 
 // constructor
-StartAssembly::StartAssembly(int theTime, Simulation *sim, Part *thePart) : Event(theTime, sim), myPart(thePart) {}
+StartAssembly::StartAssembly(int theTime, Simulation *sim, Part *thePart, Part *theOtherPart)
+    : Event(theTime, sim), myPart(thePart),mySecondPart(theOtherPart) {}
 
 // End Assembly to be scheduled.
 // Set respective stations to busy
@@ -27,7 +28,7 @@ void StartAssembly::processEvent()
         scheduleTime = sim->getFinishingAssemblingTime();
     }
     // schedule and create an end assembly event
-    EndAssembly *newAssy = new EndAssembly(scheduleTime,sim,myPart);
+    EndAssembly *newAssy = new EndAssembly(scheduleTime,sim,myPart,mySecondPart);
     sim->addEvent(newAssy);
 }// processEvent
 

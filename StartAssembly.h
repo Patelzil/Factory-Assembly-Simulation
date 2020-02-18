@@ -7,8 +7,9 @@ class StartAssembly: public Event
 {
 private:
     Part *myPart;
+    Part *mySecondPart;
 public:
-    StartAssembly(int , Simulation *, Part *);
+    StartAssembly(int , Simulation *, Part *, Part *);
     ~StartAssembly();
     void processEvent();
     void print();

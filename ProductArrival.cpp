@@ -8,17 +8,14 @@ using namespace std;
 
 ProductArrival::ProductArrival(int theTime, Simulation *sim, Part *thePart) : Event(theTime, sim), myPart(thePart) {}
 
-// todo:
 void ProductArrival::processEvent()
 {
     // P2 is waiting and finishing station not busy
     if(!sim->getPartQueues(2)->isEmpty() && !sim->isFinishingBusy())
     {
-        cout << "At time " <<  << ": Product arrives to be assembled by Finishing Station." << endl;
-        StartAssembly *newStart = new StartAssembly(sim->getSimulationTime(), sim, dynamic_cast<Part *>(sim->getPartQueues(2)->getFront()));
-        StartAssembly *secondStart = new StartAssembly(sim->getSimulationTime(), sim, sim->getPartialProduct());
+        cout << "At time " << sim->getSimulationTime() << ": Product arrives to be assembled by Finishing Station." << endl;
+        StartAssembly *newStart = new StartAssembly(sim->getSimulationTime(), sim, dynamic_cast<Part *>(sim->getPartQueues(2)->getFront()), sim->getPartialProduct());
         sim->addEvent(newStart);
-        sim->addEvent(secondStart);
     }
     else
     {
