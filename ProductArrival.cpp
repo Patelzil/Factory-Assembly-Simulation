@@ -14,7 +14,7 @@ void ProductArrival::processEvent()
     if(!sim->getPartQueues(2)->isEmpty() && !sim->isFinishingBusy())
     {
         cout << "At time " << sim->getSimulationTime() << ": Product arrives to be assembled by Finishing Station." << endl;
-        StartAssembly *newStart = new StartAssembly(sim->getSimulationTime(), sim, dynamic_cast<Part *>(sim->getPartQueues(2)->getFront()), sim->getPartialProduct());
+        StartAssembly *newStart = new StartAssembly(sim->getSimulationTime(), sim, dynamic_cast<Part *>(sim->getPartQueues(2)->getFront()), myPart);
         sim->addEvent(newStart);
     }
     else

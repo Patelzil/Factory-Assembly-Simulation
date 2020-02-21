@@ -2,6 +2,7 @@
 #include "Node.h"
 #include "OrderedItem.h"
 
+
 PriorityQueue::PriorityQueue() : front(nullptr), size(0) {}
 int PriorityQueue::getSize() {return size; }
 bool PriorityQueue::isEmpty() {return size == 0;}
@@ -35,7 +36,7 @@ void PriorityQueue::insert(OrderedItem *newItem )
     }
     else // special case: adding to empty priority queue
     {
-        front = new Node(newItem, nullptr);
+        front = new Node(newItem, curr);
     }
     size++;
 }

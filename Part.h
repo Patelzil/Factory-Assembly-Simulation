@@ -11,7 +11,7 @@ private:
     int waitTime; // how long a part waited in the queue before assembly started
     int startAssyTime;
 public:
-    Part(int, int);
+    Part(int part, int time);
     int getPartNumber();
     void print();
     ~Part();

@@ -107,6 +107,12 @@
 		<Unit filename="C:/Users/Lenovo/CLionProjects/Event_Driven_Simulation/Node.h">
 			<Option target="Event_Driven_Simulation"/>
 		</Unit>
+		<Unit filename="C:/Users/Lenovo/CLionProjects/Event_Driven_Simulation/OrderedItem.cpp">
+			<Option target="Event_Driven_Simulation"/>
+		</Unit>
+		<Unit filename="C:/Users/Lenovo/CLionProjects/Event_Driven_Simulation/OrderedItem.h">
+			<Option target="Event_Driven_Simulation"/>
+		</Unit>
 		<Unit filename="C:/Users/Lenovo/CLionProjects/Event_Driven_Simulation/Part.cpp">
 			<Option target="Event_Driven_Simulation"/>
 		</Unit>
@@ -147,9 +153,6 @@
 			<Option target="Event_Driven_Simulation"/>
 		</Unit>
 		<Unit filename="C:/Users/Lenovo/CLionProjects/Event_Driven_Simulation/StartAssembly.h">
-			<Option target="Event_Driven_Simulation"/>
-		</Unit>
-		<Unit filename="C:/Users/Lenovo/CLionProjects/Event_Driven_Simulation/Test.cpp">
 			<Option target="Event_Driven_Simulation"/>
 		</Unit>
 		<Unit filename="C:/Users/Lenovo/CLionProjects/Event_Driven_Simulation/CMakeLists.txt">

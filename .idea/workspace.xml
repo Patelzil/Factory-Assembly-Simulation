@@ -5,19 +5,34 @@
       <config projectName="Event_Driven_Simulation" targetName="Event_Driven_Simulation" />
     </generated>
   </component>
-  <component name="CMakeSettings">
+  <component name="CMakeSettings" AUTO_RELOAD="true">
     <configurations>
       <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
     </configurations>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="496403cf-21cf-493f-b73c-17e469e16562" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Zil.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A2main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/A2main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EndAssembly.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/EndAssembly.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EndAssembly.h" beforeDir="false" afterPath="$PROJECT_DIR$/EndAssembly.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part.h" beforeDir="false" afterPath="$PROJECT_DIR$/Part.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PartArrival.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/PartArrival.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PriorityQueue.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/PriorityQueue.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProductArrival.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ProductArrival.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Simulation.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Simulation.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Simulation.h" beforeDir="false" afterPath="$PROJECT_DIR$/Simulation.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/StartAssembly.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/StartAssembly.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StartAssembly.h" beforeDir="false" afterPath="$PROJECT_DIR$/StartAssembly.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/catch.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Event_Driven_Simulation.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Event_Driven_Simulation.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Event_Driven_Simulation.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Event_Driven_Simulation.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Event_Driven_Simulation.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Event_Driven_Simulation.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Event_Driven_Simulation.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Event_Driven_Simulation.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Event_Driven_Simulation.dir/objects1.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Event_Driven_Simulation.dir/objects1.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Event_Driven_Simulation.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Event_Driven_Simulation.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +56,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -53,7 +69,7 @@
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RunManager">
-    <configuration name="Event_Driven_Simulation" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Event_Driven_Simulation" TARGET_NAME="Event_Driven_Simulation" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Event_Driven_Simulation" RUN_TARGET_NAME="Event_Driven_Simulation">
+    <configuration name="Event_Driven_Simulation" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="example.txt" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Event_Driven_Simulation" TARGET_NAME="Event_Driven_Simulation" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Event_Driven_Simulation" RUN_TARGET_NAME="Event_Driven_Simulation">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -88,7 +104,9 @@
       <workItem from="1581879090163" duration="1794000" />
       <workItem from="1581922694889" duration="4717000" />
       <workItem from="1581968903299" duration="20680000" />
-      <workItem from="1582052853961" duration="652000" />
+      <workItem from="1582052853961" duration="2096000" />
+      <workItem from="1582234684553" duration="15844000" />
+      <workItem from="1582257969023" duration="18389000" />
     </task>
     <task id="LOCAL-00001" summary="New classes created">
       <created>1581728875901</created>
@@ -258,7 +276,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582017402372</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="StartAssembly and EndAssembly now hold 2 parts each.">
+      <created>1582053552015</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1582053552015</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -289,7 +314,8 @@
     <MESSAGE value="Test File created. PartArrival class implemented." />
     <MESSAGE value="Reading file" />
     <MESSAGE value="proccessEvent implemented" />
-    <option name="LAST_COMMIT_MESSAGE" value="proccessEvent implemented" />
+    <MESSAGE value="StartAssembly and EndAssembly now hold 2 parts each." />
+    <option name="LAST_COMMIT_MESSAGE" value="StartAssembly and EndAssembly now hold 2 parts each." />
   </component>
   <component name="WindowStateProjectService">
     <state x="233" y="2" key="#Inspections" timestamp="1581729970024">
@@ -300,10 +326,46 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="233" y="2" key="#New_File_Extensions/0.0.1280.680@0.0.1280.680" timestamp="1581751108912" />
-    <state x="297" y="0" key="CommitChangelistDialog2" timestamp="1582017401728">
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582283118428">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="297" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1582017401728" />
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1582283118428" />
+    <state x="297" y="0" key="CommitChangelistDialog2" timestamp="1582053551146">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="297" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1582053551146" />
+    <state width="1237" height="246" key="GridCell.Tab.0.bottom" timestamp="1582284047539">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="246" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1582284047539" />
+    <state width="1237" height="246" key="GridCell.Tab.0.center" timestamp="1582284047539">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="246" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1582284047539" />
+    <state width="1237" height="246" key="GridCell.Tab.0.left" timestamp="1582284047539">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="246" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1582284047539" />
+    <state width="1237" height="246" key="GridCell.Tab.0.right" timestamp="1582284047539">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="246" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1582284047539" />
+    <state width="1237" height="246" key="GridCell.Tab.1.bottom" timestamp="1582284047539">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="246" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1582284047539" />
+    <state width="1237" height="246" key="GridCell.Tab.1.center" timestamp="1582284047539">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="246" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1582284047539" />
+    <state width="1237" height="246" key="GridCell.Tab.1.left" timestamp="1582284047539">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="246" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1582284047539" />
+    <state width="1237" height="246" key="GridCell.Tab.1.right" timestamp="1582284047539">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="246" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1582284047539" />
     <state x="144" y="0" key="SettingsEditor" timestamp="1581728791310">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -312,13 +374,29 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="233" y="76" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1582017407542" />
-    <state x="364" y="186" key="com.intellij.ide.util.TipDialog" timestamp="1582052893284">
+    <state x="364" y="186" key="com.intellij.ide.util.TipDialog" timestamp="1582322576781">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="364" y="186" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1582052893284" />
+    <state x="364" y="186" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1582322576781" />
     <state x="452" y="259" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1581796484224">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="452" y="259" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1581796484224" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/A2main.cpp</url>
+          <line>13</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="CMakeRunConfiguration">
+        <watch expression="this" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>

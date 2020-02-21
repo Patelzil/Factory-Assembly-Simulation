@@ -26,9 +26,12 @@ public:
 	// you need methods to manipulate product and part queues.
 	// [add them here.]
 	Part *getPartialProduct();
-	void addPartialProduct(ListItem *); // insert P3 in queue
+	void addPartialProduct(ListItem *); // insert P3 in productQueue
 	Queue* getPartQueues(int );
+	void addPart(int ,Part *);
 	void removePart(int);
+	Queue *getProductQueue();
+	PriorityQueue *getEventList();
 
 	int getMainAssemblyTime();
 	int getFinishingAssemblingTime();

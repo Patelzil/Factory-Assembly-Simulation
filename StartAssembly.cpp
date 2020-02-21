@@ -14,22 +14,30 @@ StartAssembly::StartAssembly(int theTime, Simulation *sim, Part *thePart, Part *
 // Set respective stations to busy
 void StartAssembly::processEvent()
 {
-    int scheduleTime;
-    if(myPart->getPartNumber() == 0 || myPart->getPartNumber() == 1) // main station parts
+    EndAssembly *newAssy;
+    int time;
+    if(myPart->getPartNumber() == 0 && mySecondPart->getPartNumber() == 1) // main station parts
     {
-        cout << "At time " << sim->getSimulationTime() << ": Part P0 and P1 starts to be assembled at the Main Station." << endl;
+        cout << "At time " << sim->getSimulationTime() << ": Part P0 and P1 starts assembly at the Main Station." << endl;
         sim->setMainStatus(true); // set main station to be busy
-        scheduleTime = sim->getMainAssemblyTime();
+        time = getTime() + sim->getMainAssemblyTime();
+        // schedule and create an end assembly event
+        newAssy = new EndAssembly(time,sim,myPart,mySecondPart);
+        sim->addEvent(newAssy);
     }
-    else // finishing station
+
+    if(myPart->getPartNumber() == 2 && mySecondPart->getPartNumber() == 3)// finishing station
     {
-        cout << "At time " << sim->getSimulationTime() << ": Part P2 and P3 starts to be assembled at the Finishing Station." << endl;
+        cout << "At time " << sim->getSimulationTime() << ": Part P2 and P3 starts assembly at the Finishing Station." << endl;
         sim->setFinishingStatus(true); // finishing station becomes busy
-        scheduleTime = sim->getFinishingAssemblingTime();
+        time = getTime() + sim->getFinishingAssemblingTime();
+        // schedule and create an end assembly event
+        newAssy = new EndAssembly(time,sim,myPart,mySecondPart);
+        sim->addEvent(newAssy);
     }
-    // schedule and create an end assembly event
-    EndAssembly *newAssy = new EndAssembly(scheduleTime,sim,myPart,mySecondPart);
-    sim->addEvent(newAssy);
+//    // schedule and create an end assembly event
+//    EndAssembly *newAssy = new EndAssembly(time,sim,myPart,mySecondPart);
+//    sim->addEvent(newAssy);
 }// processEvent
 
 // destructor
