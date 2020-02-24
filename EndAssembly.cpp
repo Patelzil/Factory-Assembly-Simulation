@@ -4,6 +4,7 @@
 #include "Simulation.h"
 #include "StartAssembly.h"
 #include "Queue.h"
+#include "PriorityQueue.h"
 #include <iostream>
 using namespace std;
 
@@ -19,6 +20,7 @@ void EndAssembly::processEvent()
     {
         sim->setMainStatus(false); // set main station to not busy
         cout << "At time " << getTime() << ": Part P1 and P2 have been assembled in the Main Station to produce P3." << endl;
+        sim->incrementParts();  // number of parts increment by 2(p0 and p1)
 
         // remove front part from the respective queues
         sim->removePart(myPart->getPartNumber());
@@ -35,6 +37,9 @@ void EndAssembly::processEvent()
     if(myPart->getPartNumber() == 2 && mySecPart->getPartNumber() == 3) // finishing station
     {
         sim->setFinishingStatus(false); // set finishing station is not busy
+
+        sim->incrementParts(); // number of parts increment by 2(p3 and p2)
+
         sim->removePart(myPart->getPartNumber());
         sim->removePart(mySecPart->getPartNumber());
         cout << "At time " << sim->getSimulationTime() << ": Part P2 and P3 have been assembled in Finishing station to produce a finished product." << endl;

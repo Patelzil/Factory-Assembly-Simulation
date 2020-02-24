@@ -12,5 +12,4 @@ public:
     StartAssembly(int , Simulation *, Part *, Part *);
     ~StartAssembly();
     void processEvent();
-    void print();
 };// StartAssembly

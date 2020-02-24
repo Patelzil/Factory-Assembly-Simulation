@@ -10,6 +10,7 @@ CMakeFiles/Event_Driven_Simulation.dir/EndAssembly.cpp.obj: ../Event.h
 CMakeFiles/Event_Driven_Simulation.dir/EndAssembly.cpp.obj: ../ListItem.h
 CMakeFiles/Event_Driven_Simulation.dir/EndAssembly.cpp.obj: ../OrderedItem.h
 CMakeFiles/Event_Driven_Simulation.dir/EndAssembly.cpp.obj: ../Part.h
+CMakeFiles/Event_Driven_Simulation.dir/EndAssembly.cpp.obj: ../PriorityQueue.h
 CMakeFiles/Event_Driven_Simulation.dir/EndAssembly.cpp.obj: ../ProductArrival.h
 CMakeFiles/Event_Driven_Simulation.dir/EndAssembly.cpp.obj: ../Queue.h
 CMakeFiles/Event_Driven_Simulation.dir/EndAssembly.cpp.obj: ../Simulation.h

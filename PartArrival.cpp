@@ -46,10 +46,5 @@ void PartArrival::processEvent()
     sim->getNextArrival();
 }// processEvent
 
-void PartArrival::print()
-{
-    cout << "At time " << getTime() << " Part P" << myPart->getPartNumber() << " arrives." << endl;
-}// print
-
 //destructor
 PartArrival::~PartArrival(){}

@@ -45,9 +45,9 @@ void PriorityQueue::insert(OrderedItem *newItem )
 OrderedItem *PriorityQueue::deleteHighest()
 {
     OrderedItem *result = nullptr;
-    Node *curr = front;
     if(front != nullptr)
     {
+        Node *curr = front;
         result = dynamic_cast<OrderedItem *>(front->getItem());
         // special case: removing item from priority queue with only 1 event
         if(size == 1)

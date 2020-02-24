@@ -19,7 +19,7 @@ private:
     int  finishingAssemblyTime; //  how long does the main station take?
 	bool mainBusy; // is the main station busy?
 	bool finishingBusy; // is the finishing station busy?
-
+    int assembledParts;
 public:
     Simulation();
 
@@ -32,6 +32,8 @@ public:
 	void removePart(int);
 	Queue *getProductQueue();
 	PriorityQueue *getEventList();
+
+	void incrementParts();
 
 	int getMainAssemblyTime();
 	int getFinishingAssemblingTime();
@@ -54,4 +56,5 @@ public:
 	void setMainStatus(bool);
 	void setFinishingStatus(bool);
 
+	void summary();
 };// class Simulation

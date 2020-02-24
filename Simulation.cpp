@@ -12,7 +12,7 @@
 
 using namespace std;
 
-PriorityQueue *Simulation::getEventList() {return eventList; }
+PriorityQueue *Simulation::getEventList() { return eventList; }
 Queue *Simulation::getProductQueue() { return productQueue; }
 Part *Simulation::getPartialProduct() { return dynamic_cast<Part *>(productQueue->getFront()); }
 int Simulation::getMainAssemblyTime() { return mainAssemblyTime; }
@@ -24,11 +24,17 @@ bool Simulation::isMainBusy(){ return mainBusy; }
 bool Simulation::isFinishingBusy(){ return finishingBusy; }
 void Simulation::setMainStatus(bool value){ mainBusy = value; }
 void Simulation::setFinishingStatus(bool value){ finishingBusy = value; }
+void Simulation::incrementParts() { assembledParts += 2;}
 
 Simulation::Simulation()
 {
+    simulationTime = 0;
+    mainAssemblyTime = 0;
+    finishingAssemblyTime = 0;
     mainBusy = false;
     finishingBusy = false;
+    assembledParts = 0;
+    // initialize part queues
     partQueues = new Queue*[3];
     partQueues[0] = new Queue();
     partQueues[1] = new Queue();
@@ -37,34 +43,36 @@ Simulation::Simulation()
     eventList = new PriorityQueue();
 }// Simulation
 
-// todo: main method for driving the simulation
 void Simulation::runSimulation(char *fileName)
 {
-    ifile.open(fileName);
+    ifile.open("C:\\Users\\Lenovo\\CLionProjects\\Event_Driven_Simulation\\A2data.txt");
 
-    Event *theItem; // to store the event with highest priority
     eventList = new PriorityQueue;
     productQueue = new Queue;
     string line;
-
-    getline(ifile, line);
-    stringstream iss(line);
-    cout << "This line is:" << line << endl;
-    iss << line;
-    iss >> mainAssemblyTime >> finishingAssemblyTime;
-
-    // read the first arrival event from the data file and put it in the event list
-    // this event has to be an arrival!
-    getNextArrival();
-
-    while (!eventList->isEmpty())
+    if(ifile.is_open())
     {
-        theItem = dynamic_cast<Event *>(eventList->deleteHighest());
-        setSimulationTime(theItem->getTime());
-        theItem->processEvent();
-    }
+        getline(ifile, line);
+        stringstream iss;
+        iss << line;
+        iss >> mainAssemblyTime >> finishingAssemblyTime;
 
-    ifile.close(); // close the file after reading it
+        // read the first arrival event from the data file and put it in the event list
+        // this event has to be an arrival!
+        getNextArrival();
+
+        while (!eventList->isEmpty())
+        {
+            Event *theItem = dynamic_cast<Event *>(eventList->deleteHighest());
+            setSimulationTime(theItem->getTime());
+            theItem->processEvent();
+        }
+        ifile.close(); // close the file after reading it
+    }
+    else
+    {
+        cout << "Sorry. Not able to access your input file." << endl;
+    }
 
 }// runSimulation
 
@@ -98,18 +106,25 @@ void Simulation::addEvent (Event *newEvent)
 
 void Simulation::getNextArrival()
 {
-    string line;
-    int time;
-    int partNum;
-    if(!ifile.eof())
+    int time, partNum;
+    if(ifile >> time >> partNum)
     {
-        getline(ifile, line);
-        stringstream iss;
-        iss << line;
-        iss >> time >> partNum;
         Part *newPart = new Part(partNum, time);
         PartArrival *newArrival = new PartArrival(time, this, newPart);
         addEvent(newArrival);
     }
 }
 
+void Simulation::summary()
+{
+    cout << "Total number of assembled parts: " << assembledParts << endl;
+    cout << "Average time to build a product: " << endl;
+    cout <<"\n"
+           "\t              Number of\n"
+           "\t  Queue       parts left\n"
+           "\t-------------------------\n"
+           "\t    P0           " << partQueues[0]->getSize() << "\n"
+           "\t    P1           " << partQueues[1]->getSize() << "\n"
+           "\t    P2           " << partQueues[2]->getSize() << "\n"
+           "\tP3(Partial)      " << productQueue->getSize() << endl;
+}// summary

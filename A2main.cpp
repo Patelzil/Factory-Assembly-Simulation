@@ -14,7 +14,7 @@ int main(int argc, char *argv[]){
   sim->runSimulation(argv[1]);
   cout << "\n...All Assembly complete.  Final Summary:\n\n";
 
-  //sim->summary();
+  sim->summary();
 
   cout << "\nEnd of processing.\n";
   return 0;

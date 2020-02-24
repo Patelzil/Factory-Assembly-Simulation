@@ -24,4 +24,5 @@ void ProductArrival::processEvent()
     }
 }// processEvent
 
+
 ProductArrival::~ProductArrival() {}

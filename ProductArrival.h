@@ -11,5 +11,4 @@ public:
     ProductArrival(int, Simulation *, Part *);
     ~ProductArrival();
     void processEvent();
-    void print();
 };// class ProductArrival
