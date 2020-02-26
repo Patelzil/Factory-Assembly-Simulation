@@ -96,7 +96,7 @@ void Simulation::runSimulation(char *fileName)
 
 /* addPartialProduct(ListItem*)
  *
- * adds partial product P3 to it queue at the finishing station
+ * adds partial product P3 passed as parameter to the queue at the finishing station
  */
 void Simulation::addPartialProduct(ListItem *newItem)
 {
@@ -105,7 +105,11 @@ void Simulation::addPartialProduct(ListItem *newItem)
 
 /* addPart(int, Part *)
  *
- * adds parts P0,P1,P2 to its respective queue
+ * PURPOSE: adds parts P0,P1,P2 to its respective queue
+ *
+ * PARAMETER: part number and the part is passed.
+ *          part number is used in conjunction with the queue number
+ *          eg P0 is added to partQueues[0], P1 is added to partQueues[1]
  *
  */
 void Simulation::addPart(int num,Part *newPart)
@@ -115,7 +119,11 @@ void Simulation::addPart(int num,Part *newPart)
 
 /* removePart(int)
  *
- * removes part that has been processed from its respective queue
+ * PURPOSE:removes part that has been processed from its respective queue
+ *
+ * PARAMETER: passed part number:
+ *          if partNum == 3 then dequeue from product queue
+ *          else if it is 0,1 0r 2 the dequeue from partQueue[part number]
  *
  */
 void Simulation::removePart(int num)
@@ -132,7 +140,7 @@ void Simulation::removePart(int num)
 
 /* addEvent(Event *)
  *
- * add an event to event queue
+ * PURPOSE: add an event passed as a parameter to event queue
  *
  */
 void Simulation::addEvent (Event *newEvent)

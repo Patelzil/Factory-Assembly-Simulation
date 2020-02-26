@@ -13,25 +13,8 @@
   <component name="ChangeListManager">
     <list default="true" id="496403cf-21cf-493f-b73c-17e469e16562" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/A2main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/A2main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EndAssembly.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/EndAssembly.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EndAssembly.h" beforeDir="false" afterPath="$PROJECT_DIR$/EndAssembly.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Event.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Event.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Part.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Part.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Part.h" beforeDir="false" afterPath="$PROJECT_DIR$/Part.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PartArrival.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/PartArrival.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PartArrival.h" beforeDir="false" afterPath="$PROJECT_DIR$/PartArrival.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PriorityQueue.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/PriorityQueue.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PriorityQueue.h" beforeDir="false" afterPath="$PROJECT_DIR$/PriorityQueue.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductArrival.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ProductArrival.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProductArrival.h" beforeDir="false" afterPath="$PROJECT_DIR$/ProductArrival.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Simulation.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Simulation.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Simulation.h" beforeDir="false" afterPath="$PROJECT_DIR$/Simulation.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StartAssembly.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/StartAssembly.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StartAssembly.h" beforeDir="false" afterPath="$PROJECT_DIR$/StartAssembly.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Event_Driven_Simulation.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Event_Driven_Simulation.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Event_Driven_Simulation.dir/objects1.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Event_Driven_Simulation.dir/objects1.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Zil.cpp" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -168,7 +151,7 @@
       <workItem from="1582590394305" duration="7120000" />
       <workItem from="1582613396245" duration="595000" />
       <workItem from="1582681790814" duration="856000" />
-      <workItem from="1582755123711" duration="3699000" />
+      <workItem from="1582755123711" duration="5594000" />
     </task>
     <task id="LOCAL-00001" summary="New classes created">
       <created>1581728875901</created>
@@ -359,14 +342,20 @@
       <option name="project" value="LOCAL" />
       <updated>1582522939880</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Commit">
+      <created>1582758909058</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1582758909058</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Ordered insert implemented" />
     <MESSAGE value="changes made to insert method" />
     <MESSAGE value="Implemented ordered insert" />
     <MESSAGE value="Implemented deleteHighest that removes the first event with highest priority from the queue." />
@@ -391,7 +380,8 @@
     <MESSAGE value="StartAssembly and EndAssembly now hold 2 parts each." />
     <MESSAGE value="Improved the processEvents and runSimulation" />
     <MESSAGE value="Printing and Read the file without .eof()" />
-    <option name="LAST_COMMIT_MESSAGE" value="Printing and Read the file without .eof()" />
+    <MESSAGE value="Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit" />
   </component>
   <component name="WindowStateProjectService">
     <state x="233" y="2" key="#Inspections" timestamp="1581729970024">
@@ -410,26 +400,26 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="404" y="150" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680@0.0.1280.680" timestamp="1582342670882" />
-    <state x="297" y="0" key="CommitChangelistDialog2" timestamp="1582522938629">
+    <state x="297" y="0" key="CommitChangelistDialog2" timestamp="1582758908000">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="297" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1582522938629" />
-    <state width="1237" height="2" key="GridCell.Tab.0.bottom" timestamp="1582758744189">
+    <state x="297" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1582758908000" />
+    <state width="1237" height="43" key="GridCell.Tab.0.bottom" timestamp="1582761077361">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="2" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1582758744189" />
-    <state width="1237" height="2" key="GridCell.Tab.0.center" timestamp="1582758744188">
+    <state width="1237" height="43" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1582761077361" />
+    <state width="1237" height="43" key="GridCell.Tab.0.center" timestamp="1582761077360">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="2" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1582758744188" />
-    <state width="1237" height="2" key="GridCell.Tab.0.left" timestamp="1582758744188">
+    <state width="1237" height="43" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1582761077360" />
+    <state width="1237" height="43" key="GridCell.Tab.0.left" timestamp="1582761077360">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="2" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1582758744188" />
-    <state width="1237" height="2" key="GridCell.Tab.0.right" timestamp="1582758744188">
+    <state width="1237" height="43" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1582761077360" />
+    <state width="1237" height="43" key="GridCell.Tab.0.right" timestamp="1582761077360">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="2" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1582758744188" />
+    <state width="1237" height="43" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1582761077360" />
     <state width="1237" height="56" key="GridCell.Tab.1.bottom" timestamp="1582360276352">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
