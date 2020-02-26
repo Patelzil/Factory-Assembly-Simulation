@@ -12,21 +12,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="496403cf-21cf-493f-b73c-17e469e16562" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/MakeFile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/A2main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/A2main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EndAssembly.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/EndAssembly.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Event.h" beforeDir="false" afterPath="$PROJECT_DIR$/Event.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EndAssembly.h" beforeDir="false" afterPath="$PROJECT_DIR$/EndAssembly.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Event.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Event.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Part.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Part.h" beforeDir="false" afterPath="$PROJECT_DIR$/Part.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PartArrival.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/PartArrival.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PartArrival.h" beforeDir="false" afterPath="$PROJECT_DIR$/PartArrival.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PriorityQueue.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/PriorityQueue.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PriorityQueue.h" beforeDir="false" afterPath="$PROJECT_DIR$/PriorityQueue.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProductArrival.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ProductArrival.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProductArrival.h" beforeDir="false" afterPath="$PROJECT_DIR$/ProductArrival.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Simulation.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Simulation.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Simulation.h" beforeDir="false" afterPath="$PROJECT_DIR$/Simulation.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/StartAssembly.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/StartAssembly.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/StartAssembly.h" beforeDir="false" afterPath="$PROJECT_DIR$/StartAssembly.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Event_Driven_Simulation.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Event_Driven_Simulation.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Event_Driven_Simulation.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Event_Driven_Simulation.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Event_Driven_Simulation.dir/objects1.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Event_Driven_Simulation.dir/objects1.rsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,12 +67,59 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
-  <component name="RunManager">
-    <configuration name="Event_Driven_Simulation" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="example.txt" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Event_Driven_Simulation" TARGET_NAME="Event_Driven_Simulation" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Event_Driven_Simulation" RUN_TARGET_NAME="Event_Driven_Simulation">
+  <component name="RunManager" selected="CMake Application.Event_Driven_Simulation">
+    <configuration name="All in Test.cpp" type="CMakeCatchTestRunConfigurationType" factoryName="Catch Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Event_Driven_Simulation" TARGET_NAME="Event_Driven_Simulation" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Event_Driven_Simulation" RUN_TARGET_NAME="Event_Driven_Simulation" TEST_PATTERN="[#Test]" TEST_MODE="PATTERN">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Checking for the front of the priority queue." type="CMakeCatchTestRunConfigurationType" factoryName="Catch Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Event_Driven_Simulation" TARGET_NAME="Event_Driven_Simulation" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Event_Driven_Simulation" RUN_TARGET_NAME="Event_Driven_Simulation" TEST_METHOD="Checking for the front of the priority queue." TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Deleting the highest priority from the priority queue." type="CMakeCatchTestRunConfigurationType" factoryName="Catch Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Event_Driven_Simulation" TARGET_NAME="Event_Driven_Simulation" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Event_Driven_Simulation" RUN_TARGET_NAME="Event_Driven_Simulation" TEST_METHOD="Deleting the highest priority from the priority queue." TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ordered Insertion into a priority queue." type="CMakeCatchTestRunConfigurationType" factoryName="Catch Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Event_Driven_Simulation" TARGET_NAME="Event_Driven_Simulation" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Event_Driven_Simulation" RUN_TARGET_NAME="Event_Driven_Simulation" TEST_METHOD="Ordered Insertion into a priority queue." TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Testing for leaks in priority queue." type="CMakeCatchTestRunConfigurationType" factoryName="Catch Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Event_Driven_Simulation" TARGET_NAME="Event_Driven_Simulation" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Event_Driven_Simulation" RUN_TARGET_NAME="Event_Driven_Simulation" TEST_METHOD="Testing for leaks in priority queue." TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Event_Driven_Simulation" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="A2data.txt" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Event_Driven_Simulation" TARGET_NAME="Event_Driven_Simulation" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Event_Driven_Simulation" RUN_TARGET_NAME="Event_Driven_Simulation">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Catch.All in Test.cpp" />
+      <item itemvalue="Catch.Checking for the front of the priority queue." />
+      <item itemvalue="Catch.Deleting the highest priority from the priority queue." />
+      <item itemvalue="Catch.Ordered Insertion into a priority queue." />
+      <item itemvalue="Catch.Testing for leaks in priority queue." />
+      <item itemvalue="CMake Application.Event_Driven_Simulation" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Catch.All in Test.cpp" />
+        <item itemvalue="Catch.Deleting the highest priority from the priority queue." />
+        <item itemvalue="Catch.Testing for leaks in priority queue." />
+        <item itemvalue="Catch.Ordered Insertion into a priority queue." />
+        <item itemvalue="Catch.Checking for the front of the priority queue." />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -112,7 +164,11 @@
       <workItem from="1582446318273" duration="595000" />
       <workItem from="1582494189126" duration="363000" />
       <workItem from="1582495129315" duration="3007000" />
-      <workItem from="1582521567117" duration="752000" />
+      <workItem from="1582521567117" duration="9991000" />
+      <workItem from="1582590394305" duration="7120000" />
+      <workItem from="1582613396245" duration="595000" />
+      <workItem from="1582681790814" duration="856000" />
+      <workItem from="1582755123711" duration="3699000" />
     </task>
     <task id="LOCAL-00001" summary="New classes created">
       <created>1581728875901</created>
@@ -296,14 +352,20 @@
       <option name="project" value="LOCAL" />
       <updated>1582322639908</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Printing and Read the file without .eof()">
+      <created>1582522939880</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1582522939880</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="ompareTo implemented" />
     <MESSAGE value="Ordered insert implemented" />
     <MESSAGE value="changes made to insert method" />
     <MESSAGE value="Implemented ordered insert" />
@@ -328,7 +390,8 @@
     <MESSAGE value="proccessEvent implemented" />
     <MESSAGE value="StartAssembly and EndAssembly now hold 2 parts each." />
     <MESSAGE value="Improved the processEvents and runSimulation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Improved the processEvents and runSimulation" />
+    <MESSAGE value="Printing and Read the file without .eof()" />
+    <option name="LAST_COMMIT_MESSAGE" value="Printing and Read the file without .eof()" />
   </component>
   <component name="WindowStateProjectService">
     <state x="233" y="2" key="#Inspections" timestamp="1581729970024">
@@ -339,34 +402,34 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="233" y="2" key="#New_File_Extensions/0.0.1280.680@0.0.1280.680" timestamp="1581751108912" />
-    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582322765842">
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582682045341">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1582322765842" />
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1582682045341" />
     <state x="404" y="150" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1582342670882">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="404" y="150" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680@0.0.1280.680" timestamp="1582342670882" />
-    <state x="297" y="0" key="CommitChangelistDialog2" timestamp="1582322638356">
+    <state x="297" y="0" key="CommitChangelistDialog2" timestamp="1582522938629">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="297" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1582322638356" />
-    <state width="1237" height="4" key="GridCell.Tab.0.bottom" timestamp="1582521836891">
+    <state x="297" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1582522938629" />
+    <state width="1237" height="2" key="GridCell.Tab.0.bottom" timestamp="1582758744189">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="4" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1582521836891" />
-    <state width="1237" height="4" key="GridCell.Tab.0.center" timestamp="1582521836890">
+    <state width="1237" height="2" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1582758744189" />
+    <state width="1237" height="2" key="GridCell.Tab.0.center" timestamp="1582758744188">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="4" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1582521836890" />
-    <state width="1237" height="4" key="GridCell.Tab.0.left" timestamp="1582521836890">
+    <state width="1237" height="2" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1582758744188" />
+    <state width="1237" height="2" key="GridCell.Tab.0.left" timestamp="1582758744188">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="4" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1582521836890" />
-    <state width="1237" height="4" key="GridCell.Tab.0.right" timestamp="1582521836891">
+    <state width="1237" height="2" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1582758744188" />
+    <state width="1237" height="2" key="GridCell.Tab.0.right" timestamp="1582758744188">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="4" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1582521836891" />
+    <state width="1237" height="2" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1582758744188" />
     <state width="1237" height="56" key="GridCell.Tab.1.bottom" timestamp="1582360276352">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -391,10 +454,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="233" y="76" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1582017407542" />
-    <state x="364" y="186" key="com.intellij.ide.util.TipDialog" timestamp="1582521567211">
+    <state x="364" y="186" key="com.intellij.ide.util.TipDialog" timestamp="1582755124375">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="364" y="186" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1582521567211" />
+    <state x="364" y="186" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1582755124375" />
     <state x="452" y="259" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1581796484224">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

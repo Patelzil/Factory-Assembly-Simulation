@@ -1,3 +1,11 @@
+// CLASS: StartAssembly.cpp
+//
+// Author: Patel Zil, 7876456
+//
+// REMARKS:
+//
+//-----------------------------------------
+
 #include "StartAssembly.h"
 #include "Part.h"
 #include "Simulation.h"

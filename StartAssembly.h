@@ -1,3 +1,11 @@
+// CLASS: StartAssembly.h
+//
+// Author: Patel Zil, 7876456
+//
+// REMARKS:
+//
+//-----------------------------------------
+
 #pragma once
 
 #include "Event.h"

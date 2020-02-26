@@ -1,3 +1,13 @@
+// CLASS: PriorityQueue.cpp
+//
+// Author: Patel Zil, 7876456
+//
+// REMARKS: Data structure used to hold different types
+//          of events according to its time for the simulator
+//          to process it accordingly
+//
+//-----------------------------------------
+
 #include "PriorityQueue.h"
 #include "Node.h"
 #include "OrderedItem.h"
@@ -16,6 +26,12 @@ OrderedItem *PriorityQueue::getFront()
     return result;
 }// getFront
 
+/* insert(OrderedItem *)
+ *
+ * Inserts event into the priority queue according
+ * to the time of the event.
+ *
+ */
 void PriorityQueue::insert(OrderedItem *newItem )
 {
     Node *curr = front;
@@ -41,7 +57,11 @@ void PriorityQueue::insert(OrderedItem *newItem )
     size++;
 }
 
-// delete the first Node(highest priority) from the priority queue
+/* deleteHighest()
+ *
+ * delete the first Node(highest priority) from the priority queue
+ *
+ */
 OrderedItem *PriorityQueue::deleteHighest()
 {
     OrderedItem *result = nullptr;

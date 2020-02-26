@@ -1,3 +1,14 @@
+// CLASS: EndAssembly.cpp
+//
+// Author: Patel Zil, 7876456
+//
+// REMARKS: Subclass of Event class.
+//          Causes product arrival for finishing station.
+//          Starts assembly at main station if it is able to assemble.
+//          Calculates statistics at finishing station
+//
+//-----------------------------------------------------
+
 #include "EndAssembly.h"
 #include "Part.h"
 #include "ProductArrival.h"
@@ -19,31 +30,39 @@ void EndAssembly::processEvent()
     if(myPart->getPartNumber() == 0 && mySecPart->getPartNumber() == 1) // main station parts
     {
         sim->setMainStatus(false); // set main station to not busy
-        cout << "At time " << getTime() << ": Part P1 and P2 have been assembled in the Main Station to produce P3." << endl;
-        sim->incrementParts();  // number of parts increment by 2(p0 and p1)
 
-        // remove front part from the respective queues
-        sim->removePart(myPart->getPartNumber());
-        sim->removePart(mySecPart->getPartNumber());
-
+        // partial product gets created at the main station after P0 and P1 have been assembled
         Part *newPart = new Part(3, sim->getSimulationTime());
-        //sim->addPartialProduct(newPart);
-
         // schedule Product Arrival
         ProductArrival *proEvent = new ProductArrival(getTime(), sim, newPart);
         sim->addEvent(proEvent);
+
+        cout << "At time " << getTime() << ": Part P1 and P2 have been assembled in the Main Station to produce P3." << endl;
     }
 
     if(myPart->getPartNumber() == 2 && mySecPart->getPartNumber() == 3) // finishing station
     {
         sim->setFinishingStatus(false); // set finishing station is not busy
 
-        sim->incrementParts(); // number of parts increment by 2(p3 and p2)
+        sim->incrementProduct(); // increase the number of finished product by 1
 
-        sim->removePart(myPart->getPartNumber());
-        sim->removePart(mySecPart->getPartNumber());
-        cout << "At time " << sim->getSimulationTime() << ": Part P2 and P3 have been assembled in Finishing station to produce a finished product." << endl;
+        cout << "At time " << sim->getSimulationTime() << ": Part P2 and partial product(P3) have been assembled in Finishing station to produce a finished product." << endl;
     }
+
+    //------- Process the parts accordingly----------------
+    // set the end of processing time for each of the part
+    myPart->setEndProcessTime(getTime());
+    mySecPart->setEndProcessTime(getTime());
+
+    // add the processing times for both of the parts for summary purposes
+    int time = (myPart->getEndProcessTime() - myPart->getArrivalTime());
+    int secTime = (mySecPart->getEndProcessTime() - mySecPart->getArrivalTime());
+    sim->incrementProcessingTime(max(time,secTime));
+
+    // remove front part from the respective queues as they have been processed
+    sim->removePart(myPart->getPartNumber());
+    sim->removePart(mySecPart->getPartNumber());
+    //-----------------------------------------------------
 
     // both P0 and P1 are waiting and main station is not busy
     if(!sim->getPartQueues(0)->isEmpty() && !sim->getPartQueues(1)->isEmpty() && !sim->isMainBusy())

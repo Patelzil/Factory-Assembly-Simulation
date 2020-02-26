@@ -56,22 +56,9 @@ include CMakeFiles/Event_Driven_Simulation.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Event_Driven_Simulation.dir/flags.make
 
-CMakeFiles/Event_Driven_Simulation.dir/A2main.cpp.obj: CMakeFiles/Event_Driven_Simulation.dir/flags.make
-CMakeFiles/Event_Driven_Simulation.dir/A2main.cpp.obj: ../A2main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Lenovo\CLionProjects\Event_Driven_Simulation\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Event_Driven_Simulation.dir/A2main.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Event_Driven_Simulation.dir\A2main.cpp.obj -c C:\Users\Lenovo\CLionProjects\Event_Driven_Simulation\A2main.cpp
-
-CMakeFiles/Event_Driven_Simulation.dir/A2main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Event_Driven_Simulation.dir/A2main.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Lenovo\CLionProjects\Event_Driven_Simulation\A2main.cpp > CMakeFiles\Event_Driven_Simulation.dir\A2main.cpp.i
-
-CMakeFiles/Event_Driven_Simulation.dir/A2main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Event_Driven_Simulation.dir/A2main.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Lenovo\CLionProjects\Event_Driven_Simulation\A2main.cpp -o CMakeFiles\Event_Driven_Simulation.dir\A2main.cpp.s
-
 CMakeFiles/Event_Driven_Simulation.dir/PriorityQueue.cpp.obj: CMakeFiles/Event_Driven_Simulation.dir/flags.make
 CMakeFiles/Event_Driven_Simulation.dir/PriorityQueue.cpp.obj: ../PriorityQueue.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Lenovo\CLionProjects\Event_Driven_Simulation\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Event_Driven_Simulation.dir/PriorityQueue.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Lenovo\CLionProjects\Event_Driven_Simulation\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Event_Driven_Simulation.dir/PriorityQueue.cpp.obj"
 	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Event_Driven_Simulation.dir\PriorityQueue.cpp.obj -c C:\Users\Lenovo\CLionProjects\Event_Driven_Simulation\PriorityQueue.cpp
 
 CMakeFiles/Event_Driven_Simulation.dir/PriorityQueue.cpp.i: cmake_force
@@ -81,6 +68,19 @@ CMakeFiles/Event_Driven_Simulation.dir/PriorityQueue.cpp.i: cmake_force
 CMakeFiles/Event_Driven_Simulation.dir/PriorityQueue.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Event_Driven_Simulation.dir/PriorityQueue.cpp.s"
 	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Lenovo\CLionProjects\Event_Driven_Simulation\PriorityQueue.cpp -o CMakeFiles\Event_Driven_Simulation.dir\PriorityQueue.cpp.s
+
+CMakeFiles/Event_Driven_Simulation.dir/A2main.cpp.obj: CMakeFiles/Event_Driven_Simulation.dir/flags.make
+CMakeFiles/Event_Driven_Simulation.dir/A2main.cpp.obj: ../A2main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Lenovo\CLionProjects\Event_Driven_Simulation\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Event_Driven_Simulation.dir/A2main.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Event_Driven_Simulation.dir\A2main.cpp.obj -c C:\Users\Lenovo\CLionProjects\Event_Driven_Simulation\A2main.cpp
+
+CMakeFiles/Event_Driven_Simulation.dir/A2main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Event_Driven_Simulation.dir/A2main.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Lenovo\CLionProjects\Event_Driven_Simulation\A2main.cpp > CMakeFiles\Event_Driven_Simulation.dir\A2main.cpp.i
+
+CMakeFiles/Event_Driven_Simulation.dir/A2main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Event_Driven_Simulation.dir/A2main.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Lenovo\CLionProjects\Event_Driven_Simulation\A2main.cpp -o CMakeFiles\Event_Driven_Simulation.dir\A2main.cpp.s
 
 CMakeFiles/Event_Driven_Simulation.dir/Part.cpp.obj: CMakeFiles/Event_Driven_Simulation.dir/flags.make
 CMakeFiles/Event_Driven_Simulation.dir/Part.cpp.obj: ../Part.cpp
@@ -227,8 +227,8 @@ CMakeFiles/Event_Driven_Simulation.dir/OrderedItem.cpp.s: cmake_force
 
 # Object files for target Event_Driven_Simulation
 Event_Driven_Simulation_OBJECTS = \
-"CMakeFiles/Event_Driven_Simulation.dir/A2main.cpp.obj" \
 "CMakeFiles/Event_Driven_Simulation.dir/PriorityQueue.cpp.obj" \
+"CMakeFiles/Event_Driven_Simulation.dir/A2main.cpp.obj" \
 "CMakeFiles/Event_Driven_Simulation.dir/Part.cpp.obj" \
 "CMakeFiles/Event_Driven_Simulation.dir/Node.cpp.obj" \
 "CMakeFiles/Event_Driven_Simulation.dir/Event.cpp.obj" \
@@ -244,8 +244,8 @@ Event_Driven_Simulation_OBJECTS = \
 # External object files for target Event_Driven_Simulation
 Event_Driven_Simulation_EXTERNAL_OBJECTS =
 
-Event_Driven_Simulation.exe: CMakeFiles/Event_Driven_Simulation.dir/A2main.cpp.obj
 Event_Driven_Simulation.exe: CMakeFiles/Event_Driven_Simulation.dir/PriorityQueue.cpp.obj
+Event_Driven_Simulation.exe: CMakeFiles/Event_Driven_Simulation.dir/A2main.cpp.obj
 Event_Driven_Simulation.exe: CMakeFiles/Event_Driven_Simulation.dir/Part.cpp.obj
 Event_Driven_Simulation.exe: CMakeFiles/Event_Driven_Simulation.dir/Node.cpp.obj
 Event_Driven_Simulation.exe: CMakeFiles/Event_Driven_Simulation.dir/Event.cpp.obj

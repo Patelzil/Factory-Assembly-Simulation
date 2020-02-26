@@ -1,15 +1,21 @@
-#include "Part.h"
-#include <iostream>
-using namespace std;
+// CLASS: Part.cpp
+//
+// Author: Patel Zil, 7876456
+//
+// REMARKS: Part objects for different stations:
+//          P0 and P1 for main station
+//          P2 and P3(Partial Product) for finishing station
+//          contains part num, its arrival time and processing time.
+//
+//-----------------------------------------
 
-Part::Part(int newPartNum, int newTime) :partNumber(newPartNum), arrivalTime(newTime), departTime(0), waitTime(0){}
+#include "Part.h"
+
+Part::Part(int newPartNum, int newTime) :partNumber(newPartNum), arrivalTime(newTime), endProcessTime(0){}
 
 int Part::getPartNumber() { return partNumber; }
-
-void Part::print()
-{
-    cout << "Part: P" << partNumber << "   Arrival time: " << arrivalTime << "   Wait time: " << waitTime << "   Departure time: " << endl;
-}// print
-
+int Part::getEndProcessTime() {return endProcessTime; }
+int Part::getArrivalTime() { return arrivalTime; }
+void Part::setEndProcessTime(int time) { endProcessTime = time; }
 // destructor
 Part::~Part() {}

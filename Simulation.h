@@ -1,3 +1,9 @@
+// CLASS: Simulation.h
+//
+// Author: Patel Zil, 7876456
+//
+//-----------------------------------------
+
 #pragma once
 #include <fstream>
 using namespace std;
@@ -20,24 +26,26 @@ private:
 	bool mainBusy; // is the main station busy?
 	bool finishingBusy; // is the finishing station busy?
     int assembledParts;
+    int totalProcessTime;
 public:
     Simulation();
 
-	// you need methods to manipulate product and part queues.
-	// [add them here.]
+    // methods to manipulate the part and product queues
 	Part *getPartialProduct();
 	void addPartialProduct(ListItem *); // insert P3 in productQueue
 	Queue* getPartQueues(int );
 	void addPart(int ,Part *);
 	void removePart(int);
 	Queue *getProductQueue();
-	PriorityQueue *getEventList();
 
-	void incrementParts();
+	void incrementProduct();
+    void incrementProcessingTime(int time);
 
+	// getters for the stations
 	int getMainAssemblyTime();
 	int getFinishingAssemblingTime();
-        
+
+	// getter and setter for simulation time
 	int getSimulationTime();
 	void setSimulationTime(int time);
 

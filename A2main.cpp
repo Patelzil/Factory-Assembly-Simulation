@@ -1,3 +1,16 @@
+//-----------------------------------------
+// NAME		: Patel Zil
+// STUDENT NUMBER	: 7876456
+// COURSE		: COMP 2150
+// INSTRUCTOR	: Mike Domaratzki
+// ASSIGNMENT	: assignment 2
+// QUESTION	: question 1
+//
+// REMARKS: Simulating an assembly line that assembles
+//          three parts to construct a finished product
+//
+//-----------------------------------------
+
 #include "Simulation.h"
 #include <iostream>
 using namespace std;

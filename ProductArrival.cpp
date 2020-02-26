@@ -1,3 +1,13 @@
+// CLASS: ProductArrival.cpp
+//
+// Author: Patel Zil, 7876456
+//
+// REMARKS: Subclass of Event class.
+//          Contains partial product P3.
+//          checks if finishing station can assemble a product
+//
+//-----------------------------------------
+
 #include <iostream>
 #include "ProductArrival.h"
 #include "Part.h"
@@ -8,6 +18,12 @@ using namespace std;
 
 ProductArrival::ProductArrival(int theTime, Simulation *sim, Part *thePart) : Event(theTime, sim), myPart(thePart) {}
 
+/* processEvent()
+ *
+ * starts assembly for the finishing station
+ * or else add part to product's queue
+ *
+ */
 void ProductArrival::processEvent()
 {
     // P2 is waiting and finishing station not busy
@@ -19,7 +35,7 @@ void ProductArrival::processEvent()
     }
     else
     {
-        cout << "At time " << getTime() << ": Part P3 arrives in Finishing Station. (Waiting in queue)." << endl;
+        cout << "At time " << getTime() << ": Part P3 arrives at Finishing Station. (Waiting in queue)." << endl;
         sim->addPartialProduct(myPart); //add to partial products queue
     }
 }// processEvent

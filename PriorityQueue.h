@@ -1,3 +1,9 @@
+// CLASS: PriorityQueue.h
+//
+// Author: Patel Zil, 7876456
+//
+//-----------------------------------------
+
 #pragma once
 
 #include "ListItem.h"

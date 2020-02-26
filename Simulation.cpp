@@ -1,5 +1,13 @@
+// CLASS: Simulation.cpp
+//
+// Author: Patel Zil, 7876456
+//
+// REMARKS: Performs PartArrival Event.
+//          reads the file line by line as it performs the correct event.
+//
+//-----------------------------------------
+
 #include <string>
-#include <fstream>
 #include <sstream>
 #include <iostream>
 #include "Simulation.h"
@@ -12,7 +20,6 @@
 
 using namespace std;
 
-PriorityQueue *Simulation::getEventList() { return eventList; }
 Queue *Simulation::getProductQueue() { return productQueue; }
 Part *Simulation::getPartialProduct() { return dynamic_cast<Part *>(productQueue->getFront()); }
 int Simulation::getMainAssemblyTime() { return mainAssemblyTime; }
@@ -24,25 +31,36 @@ bool Simulation::isMainBusy(){ return mainBusy; }
 bool Simulation::isFinishingBusy(){ return finishingBusy; }
 void Simulation::setMainStatus(bool value){ mainBusy = value; }
 void Simulation::setFinishingStatus(bool value){ finishingBusy = value; }
-void Simulation::incrementParts() { assembledParts += 2;}
+void Simulation::incrementProduct(){ assembledParts++;}
+void Simulation::incrementProcessingTime(int time) { totalProcessTime += time; }
 
 Simulation::Simulation()
 {
+    // initialize private variables
     simulationTime = 0;
     mainAssemblyTime = 0;
     finishingAssemblyTime = 0;
     mainBusy = false;
     finishingBusy = false;
     assembledParts = 0;
-    // initialize part queues
+    totalProcessTime = 0;
+
+    // initialize part and product queues
     partQueues = new Queue*[3];
     partQueues[0] = new Queue();
     partQueues[1] = new Queue();
     partQueues[2] = new Queue();
     productQueue = new Queue();
+
     eventList = new PriorityQueue();
 }// Simulation
 
+/* runSimulation(char *)
+ *
+ * opens and reads the file as it processes events
+ * from the eventList until no events are left to be processed.
+ *
+ */
 void Simulation::runSimulation(char *fileName)
 {
     ifile.open("C:\\Users\\Lenovo\\CLionProjects\\Event_Driven_Simulation\\A2data.txt");
@@ -76,16 +94,30 @@ void Simulation::runSimulation(char *fileName)
 
 }// runSimulation
 
+/* addPartialProduct(ListItem*)
+ *
+ * adds partial product P3 to it queue at the finishing station
+ */
 void Simulation::addPartialProduct(ListItem *newItem)
 {
     productQueue->enqueue(newItem);
 }// addPartialEvent
 
+/* addPart(int, Part *)
+ *
+ * adds parts P0,P1,P2 to its respective queue
+ *
+ */
 void Simulation::addPart(int num,Part *newPart)
 {
     partQueues[num]->enqueue(newPart);
 }// addPart
 
+/* removePart(int)
+ *
+ * removes part that has been processed from its respective queue
+ *
+ */
 void Simulation::removePart(int num)
 {
     if(num == 3 )
@@ -98,12 +130,22 @@ void Simulation::removePart(int num)
     }
 }// removePart
 
-// add an event to event queue.
+/* addEvent(Event *)
+ *
+ * add an event to event queue
+ *
+ */
 void Simulation::addEvent (Event *newEvent)
 {
     eventList->insert(newEvent);
 }// addEvent
 
+/* getNextArrival()
+ *
+ * reads the next line from the file.
+ * Creates a part and then schedules a PartArrival Event
+ *
+ */
 void Simulation::getNextArrival()
 {
     int time, partNum;
@@ -115,10 +157,12 @@ void Simulation::getNextArrival()
     }
 }
 
+// prints the summary for the whole simulation
 void Simulation::summary()
 {
+    int averageTime = totalProcessTime/ assembledParts;
     cout << "Total number of assembled parts: " << assembledParts << endl;
-    cout << "Average time to build a product: " << endl;
+    cout << "Average time to build a product: " << averageTime << endl;
     cout <<"\n"
            "\t              Number of\n"
            "\t  Queue       parts left\n"
@@ -126,5 +170,5 @@ void Simulation::summary()
            "\t    P0           " << partQueues[0]->getSize() << "\n"
            "\t    P1           " << partQueues[1]->getSize() << "\n"
            "\t    P2           " << partQueues[2]->getSize() << "\n"
-           "\tP3(Partial)      " << productQueue->getSize() << endl;
+           "\tPartial(P3)      " << productQueue->getSize() << endl;
 }// summary
