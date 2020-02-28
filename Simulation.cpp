@@ -63,7 +63,7 @@ Simulation::Simulation()
  */
 void Simulation::runSimulation(char *fileName)
 {
-    ifile.open("C:\\Users\\Lenovo\\CLionProjects\\Event_Driven_Simulation\\A2data.txt");
+    ifile.open("C:\\Users\\Lenovo\\CLionProjects\\Event_Driven_Simulation\\data.txt");
 
     eventList = new PriorityQueue;
     productQueue = new Queue;
@@ -90,6 +90,7 @@ void Simulation::runSimulation(char *fileName)
     else
     {
         cout << "Sorry. Not able to access your input file." << endl;
+        exit(EXIT_FAILURE);
     }
 
 }// runSimulation
@@ -168,15 +169,18 @@ void Simulation::getNextArrival()
 // prints the summary for the whole simulation
 void Simulation::summary()
 {
-    int averageTime = totalProcessTime/ assembledParts;
-    cout << "Total number of assembled parts: " << assembledParts << endl;
-    cout << "Average time to build a product: " << averageTime << endl;
-    cout <<"\n"
-           "\t              Number of\n"
-           "\t  Queue       parts left\n"
-           "\t-------------------------\n"
-           "\t    P0           " << partQueues[0]->getSize() << "\n"
-           "\t    P1           " << partQueues[1]->getSize() << "\n"
-           "\t    P2           " << partQueues[2]->getSize() << "\n"
-           "\tPartial(P3)      " << productQueue->getSize() << endl;
+    if(assembledParts > 0)
+    {
+        int averageTime = totalProcessTime / assembledParts;
+        cout << "Total number of assembled parts: " << assembledParts << endl;
+        cout << "Average time to build a product: " << averageTime << endl;
+        cout << "\n"
+                "\t              Number of\n"
+                "\t  Queue       parts left\n"
+                "\t-------------------------\n"
+                "\t    P0           " << partQueues[0]->getSize() << "\n"
+                "\t    P1           " << partQueues[1]->getSize() << "\n"
+                "\t    P2           " << partQueues[2]->getSize() << "\n"
+                "\tPartial(P3)      " << productQueue->getSize() << endl;
+    }
 }// summary
